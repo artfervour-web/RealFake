@@ -3,12 +3,14 @@
     {
         "left_img": "img/real.jpg",
         "right_img": "img/fake.jpg",
+        "name": "Mona Lisa",
         "correct": "right"
     },
     "1":
     {
         "left_img": "img/fake_0.jpg",
         "right_img": "img/real_0.jpg",
+        "name": "Girl with Pearl Earing",
         "correct": "left"
     }
 }

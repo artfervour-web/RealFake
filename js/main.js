@@ -49,6 +49,7 @@ function start_level() {
     let interval = 0.2;
     document.getElementById('img_right').src = levels[String(i)].right_img;
     document.getElementById('img_left').src = levels[String(i)].left_img;
+    document.getElementById('img_desc').innerHTML = levels[String(i)].name;
     time_left = total_time;
     timer = setInterval(() => {
         document.getElementsByClassName('timer_progress')[0].style.width = String(100 * (1 - time_left/total_time)) + '%'

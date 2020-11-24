@@ -1,14 +1,14 @@
 {
     "0":
     {
-        "left_img": "img/sun.jpg",
-        "right_img": "img/nus.jpg",
-        "correct": "left"
+        "left_img": "img/real.jpg",
+        "right_img": "img/fake.jpg",
+        "correct": "right"
     },
     "1":
     {
-        "left_img": "img/left_1.jpg",
-        "right_img": "img/right_1.jpg",
+        "left_img": "img/fake_0.jpg",
+        "right_img": "img/real_0.jpg",
         "correct": "left"
     }
 }

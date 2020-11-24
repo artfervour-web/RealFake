@@ -1,0 +1,44 @@
+<div class='container-fluid ' style='padding-top: 5vh'>
+    <div class='row'>
+        <div class='col p-sm-2 p-md-5 text-center font-weight-bold title'>FIND THE FAKE</div>
+    </div>
+    <div class='row'>
+        <div class='col-md-1 col-sm-0'></div>
+        <div class='col-md-4 col-sm-6 btn' onclick='check("left")'>
+            <img id='img_left' src='img' width='100%'>
+        </div>
+        <div class='col-md-2 col-sm-0'></div>
+        <div class='col-md-4 col-sm-6 btn' onclick='check("right")'>
+            <img id='img_right' src='img' width='100%'>
+        </div>
+        <div class='col-md-4 col-sm-0'></div>
+    </div>
+    <div class='row'>
+        <div class='col-md-3 col-sm-2'></div>
+        <div class='col-md-6 col-sm-8'>
+            <div class='timer'>
+                <div class='timer_progress'></div>
+            </div>
+        </div>
+        <div class='col-md-3 col-sm-2'></div>
+    </div>
+</div>
+<style>
+    .btn:hover {
+        cursor: pointer;
+    }
+    .title {
+        font-size: 5vh;
+    }
+    .timer {
+        background: greenyellow;
+        width: 100%;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+    }
+    .timer_progress {
+        background: red;
+        width: 0%;
+        height: 5vh;
+    }
+</style>
